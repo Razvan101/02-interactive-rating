@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+main {
+  background-color: hsl(213, 19%, 18%);
+  width: 400px;
+  padding: 20px;
+  border-radius: 10%;
+}
+#image-container {
+  background-color: rgba(124, 135, 152, 0.2);
+  display: inline-block;
+  padding: 15px 17px;
+  border-radius: 50%;
+}
+main h1 {
+  color: white;
+}
+main p {
+  color: hsl(213, 19%, 63%);
+}
+#list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+#list .list-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 17px;
+  background-color: rgba(124, 135, 152, 0.2);
+  border-radius: 50%;
+  color: hsl(213, 19%, 63%);
+  cursor: pointer;
+}
+#list .list-item:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+#list .list-item:active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+#send {
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  padding: 15px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#send:hover {
+  color:hsl(25, 97%, 53%);
+  background-color: white;
+}
