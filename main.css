@@ -90,3 +90,12 @@ body {
   color: hsl(213, 19%, 63%);
   font-size: 1.2rem;
 }
+#list .active {
+  background-color:hsl(25, 97%, 53%);
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 17px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
